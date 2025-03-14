@@ -6,7 +6,7 @@ export default function Header() {
         <div className="container_header">
             <section className="body_header">
                 <div className="title">
-                    <h1>Header</h1>
+                    <h1>HEADER</h1>
                 </div>
                 <div className="nav">
                     <span>Create</span>

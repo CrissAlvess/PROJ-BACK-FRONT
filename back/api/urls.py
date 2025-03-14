@@ -14,3 +14,9 @@ urlpatterns = [
     path('refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 ]
 
+router = DefaultRouter()
+router.register(r'disciplinas', DisciplinaViewSet)
+
+urlpatterns = [
+    path('', include(router.urls)),
+]
